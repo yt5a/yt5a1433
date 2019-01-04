@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+header {
+    background-color: #333;
+    width: 100%;
+    height: 10%;
+}
+
+
+.scroll {
+position: absolute;
+top: 500px;
+left: 1000px;
+background-color: #ffffff
+}
+
+.timer {
+  /*background-color: #f0ffff*/
+  background:linear-gradient(to right, blue 0%, red 100%);
+  color: #ffffff
+  }
+
+  #title {
+   }
+   #title img {
+   position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+#titlepush {
+ }
+ #titlepush img {
+ opacity: 0.5;
+ transition: 1s;
+ position: absolute;
+  top: 200px;
+  left: 100px;
+}
+   #titlepush img:hover {
+   opacity: 1;
+   position: absolute;
+   top: 150px;
+   left: 100px;
+}
+
+#studypush {
+ }
+ #studypush img {
+ opacity: 0.5;
+ transition: 1s;
+ position: absolute;
+  top: 350px;
+  left: 250px;
+}
+   #studypush img:hover {
+   opacity: 1;
+   position: absolute;
+   top: 400px;
+  left: 250px;
+}
+
+#lessonpush {
+ }
+ #lessonpush img {
+ opacity: 0.5;
+ transition: 1s;
+ position: absolute;
+  top: 200px;
+  left: 400px;
+}
+   #lessonpush img:hover {
+   opacity: 1;
+   position: absolute;
+   top: 150px;
+  left: 400px;
+}
+
+#contentspush {
+ }
+ #contentspush img {
+ opacity: 0.5;
+ transition: 1s;
+ position: absolute;
+  top: 350px;
+  left: 550px;
+}
+   #contentspush img:hover {
+   opacity: 1;
+   position: absolute;
+   top: 400px;
+  left: 550px;
+}
+
+#storagepush {
+ }
+ #storagepush img {
+ opacity: 0.5;
+ transition: 1s;
+ position: absolute;
+  top: 200px;
+  left: 700px;
+}
+   #storagepush img:hover {
+   opacity: 1;
+   position: absolute;
+   top: 150px;
+  left: 700px;
+}

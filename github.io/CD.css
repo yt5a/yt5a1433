@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body, html, main {
+    /* important */
+    height: 100%;
+}
+
+.cd-fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+background-image: url("https://yt5a.github.io/images/aran.jpeg");
+}
+.cd-fixed-bg.cd-bg-2 {
+background-image: url("https://yt5a.github.io/images/images-1.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+background-image: url("https://yt5a.github.io/images/aran.jpeg");
+}
+.cd-fixed-bg.cd-bg-4 {
+
+}
+.cd-color-1{
+  background:linear-gradient(to bottom, black 90%, white 100%);
+}
+
+.cd-scrolling-bg {
+    min-height: 80%;
+}
